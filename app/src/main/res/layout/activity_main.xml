@@ -6,14 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="419dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fasttofurious" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="254dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/portadaaa" />
+
     <TextView
+        android:id="@+id/textview_movie_title"
+        android:layout_width="194dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/template_movie_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:text="Fast and Furious 9" />
+
+    <TextView
+        android:id="@+id/textview_movie_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Hola"
-        android:textColor="@color/primary"
+        android:layout_marginTop="28dp"
+        android:text="@string/template_movie_details"
+        app:layout_constraintTop_toTopOf="@+id/textview_movie_title"
+        tools:layout_editor_absoluteX="26dp"
+        tools:text="Marzo 2021 DU 106 minutes" />
+
+    <Button
+        android:id="@+id/button_rent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rent"
+        app:layout_constraintEnd_toStartOf="@+id/button_buy"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_buy"
+        tools:text="Alquilar" />
+
+    <Button
+        android:id="@+id/button_buy"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_rent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:text="Comprar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="365dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="88dp"
+        android:text="Dom Toretto (VIN DIESEL) lleva una vida tranquila y discreta con Letty y el hijo de ambos, el pequeño Brian, pero saben que el peligro acecha constantemente a la vuelta de la esquina. Esta vez, la amenaza obligará a Dom a enfrentarse a los pecados del pasado si quiere salvar a los que más quiere."
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_buy" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
