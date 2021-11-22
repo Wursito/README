@@ -81,7 +81,17 @@
         android:text="Dom Toretto (VIN DIESEL) lleva una vida tranquila y discreta con Letty y el hijo de ambos, el pequeño Brian, pero saben que el peligro acecha constantemente a la vuelta de la esquina. Esta vez, la amenaza obligará a Dom a enfrentarse a los pecados del pasado si quiere salvar a los que más quiere."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button_buy" />
+        app:layout_constraintTop_toTopOf="@+id/button_buy"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:text="Hello World"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_movie_details" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
