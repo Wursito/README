@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\34675\\Desktop\\2Multiplataforma\\PMDM\\README\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\34675\\Desktop\\2Multiplataforma\\PMDM\\README\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "3,-1",
+                        "startColumns": "4,-1",
+                        "startOffsets": "101,-1",
+                        "endColumns": "45,-1",
+                        "endOffsets": "142,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,42",
+                        "endOffsets": "96,139"
+                    }
+                }
+            ]
+        }
+    ]
+}
