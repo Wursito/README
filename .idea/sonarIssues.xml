@@ -8,6 +8,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Domain/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/Pelicula.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/entity/Film.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/entity/GetFilmUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/entity/Pelicula.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/repository/FilmRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/repository/PeliculaRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/usecase/GetFilmUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/usecase/GetFilmUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
           <value>
             <set />
@@ -84,6 +129,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/build.gradle">
           <value>
             <set />
           </value>
