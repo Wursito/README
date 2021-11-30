@@ -22,3 +22,19 @@ b
 2app/src/test/java/es/spain/club/ExampleUnitTest.kt,d\d\dd7497ae10fb509623a1a5c3b1b1b11e04a839dc
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+A
+Domain/.gitignore,1\2\12bc99949c29dc8f1f61d82b11dee6f67174d35c
+G
+data/consumer-rules.pro,8\d\8d6a93142d516457e992dc51471f06dffd872e84
+c
+3data/src/test/java/es/spain/data/ExampleUnitTest.kt,a\1\a1820499c376c11fd3236c5410ac8de9840937d6
+G
+data/proguard-rules.pro,0\f\0fbb6d729d2f1271751b1eee2d01927256945f01
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+Q
+!data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
+?
+data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
+r
+Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
