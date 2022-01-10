@@ -3,39 +3,55 @@ package es.spain.club
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import dagger.hilt.android.AndroidEntryPoint
+import es.spain.domain.usecase.GetFilmUseCase
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
+    @Inject
+    lateinit var log: MyLog
+    @Inject
+    lateinit var usecase: GetFilmUseCase
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d("Victor", "Se ha iniciado la aplicacion")
+        log.log("Oncreate")
+        val film = usecase.execute()
+        log.log("El titulo es ${film.title}")
+
+
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d("Victor", "Pasa a estado visible")
+        log.log("OnStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d("Victor", "Sale de estado invisible")
+        log.log("OnResume")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.d("Victor", "Se vuelve a iniciar la aplicacion")
+        log.log("OnRestart")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d("Victor", "La aplicacion se ha parado")
+        log.log("OnStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d("Victor", "La aplicacion ha dejado de ejercutarse")
+        log.log("OnDestroy")
 
 
     }
+
 
 }

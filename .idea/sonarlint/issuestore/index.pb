@@ -1,10 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -16,8 +12,6 @@ X
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
 q
@@ -26,5 +20,31 @@ F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
 b
 2app/src/test/java/es/spain/club/ExampleUnitTest.kt,d\d\dd7497ae10fb509623a1a5c3b1b1b11e04a839dc
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+A
+Domain/.gitignore,1\2\12bc99949c29dc8f1f61d82b11dee6f67174d35c
+G
+data/consumer-rules.pro,8\d\8d6a93142d516457e992dc51471f06dffd872e84
+c
+3data/src/test/java/es/spain/data/ExampleUnitTest.kt,a\1\a1820499c376c11fd3236c5410ac8de9840937d6
+G
+data/proguard-rules.pro,0\f\0fbb6d729d2f1271751b1eee2d01927256945f01
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+Q
+!data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
+?
+data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
+r
+Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
+A
+data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+X
+(app/src/main/java/es/spain/club/MyApp.kt,7\b\7bb666fb3cd768ec7f3e31beebf060e960904f9f
+X
+(app/src/main/java/es/spain/club/MyLog.kt,0\9\091b9caa363fed89ae910fb0312e2a328d95f803
