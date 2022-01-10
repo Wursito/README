@@ -6,14 +6,10 @@ import es.spain.domain.entity.Film
 import es.spain.domain.repository.FilmRepository
 import javax.inject.Inject
 
-class FilmRepositoryImpl @Inject constructor(): FilmRepository {
+class FilmRepositoryImpl @Inject constructor(
+private val dataSource: HardcodedDataSource): FilmRepository {
 override fun getfilm(): Film {
-    return Film(
-        title = "FastAndFurious",
-        url = "www.Tofasttofurious.com",
-        rating = 10.0,
-        directorName = "Michael Jack"
+    return dataSource.getfilm()
 
-        )
     }
 }

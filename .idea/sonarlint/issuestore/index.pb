@@ -38,3 +38,13 @@ Q
 data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
 r
 Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
+A
+data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+X
+(app/src/main/java/es/spain/club/MyApp.kt,7\b\7bb666fb3cd768ec7f3e31beebf060e960904f9f
+X
+(app/src/main/java/es/spain/club/MyLog.kt,0\9\091b9caa363fed89ae910fb0312e2a328d95f803

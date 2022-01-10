@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         log.log("Oncreate")
         val film = usecase.execute()
         log.log("El titulo es ${film.title}")
-        
+
 
     }
 
