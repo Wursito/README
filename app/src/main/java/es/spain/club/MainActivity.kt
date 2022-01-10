@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import dagger.hilt.android.AndroidEntryPoint
+import es.spain.club.databinding.ActivityMainBinding
 import es.spain.domain.usecase.GetFilmUseCase
 import javax.inject.Inject
 
@@ -16,12 +17,17 @@ class MainActivity : AppCompatActivity() {
     lateinit var usecase: GetFilmUseCase
 
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         log.log("Oncreate")
         val film = usecase.execute()
         log.log("El titulo es ${film.title}")
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
 
 
     }
