@@ -10,10 +10,10 @@ interface FilmApi{
     @GET("movie/{id}")
     suspend fun getFilm(@Path("id")filmId:Int,
                         @Query("Language")lang:String,
-                        @Query("api_key")apiKey:String):FilmDto
+                        @Query("api_key")apiKey:String=API_KEY):FilmDto
     @GET("movie/{movie_id}/credits")
     suspend fun getDirector(@Path ("id")filmID:Int,
-                            @Query("api_key")apiKey:String):CreditsDto
+                            @Query("api_key")apiKey:String=API_KEY):CreditsDto
 
 
 }
