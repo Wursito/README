@@ -6,9 +6,7 @@ data class FilmDto(
     @SerializedName("id") val id: Int,
     @SerializedName("title") val title: Int,
     @SerializedName("Description") val  overview: Int,
-    @SerializedName("Rating") val  vote_average: Int,
-    @SerializedName("Rating") val  poster_path: Int,
+    @SerializedName("vote_average:") val  Rating: Int,
+    @SerializedName("poster_path") val  Portada: Int,
 
-
-
-
+)
