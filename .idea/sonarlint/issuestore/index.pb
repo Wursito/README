@@ -20,8 +20,6 @@ F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
 b
 2app/src/test/java/es/spain/club/ExampleUnitTest.kt,d\d\dd7497ae10fb509623a1a5c3b1b1b11e04a839dc
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 A
 Domain/.gitignore,1\2\12bc99949c29dc8f1f61d82b11dee6f67174d35c
 G
@@ -38,12 +36,6 @@ Q
 data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
 r
 Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
-A
-data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 X
 (app/src/main/java/es/spain/club/MyApp.kt,7\b\7bb666fb3cd768ec7f3e31beebf060e960904f9f
 X
