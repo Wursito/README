@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
     }
 
     override fun onStart() {
@@ -39,6 +40,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        binding.title.text = "Hola"
+        binding.title.text= resources.getString(R.string.hello)
         log.log("OnResume")
     }
 
