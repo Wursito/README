@@ -9,8 +9,6 @@ import es.spain.domain.repository.FilmRepository
 @Module
 @InstallIn(ActivityComponent::class)
 
-
-
 abstract class DataModule {
     @Binds
     abstract fun bindFilmRepository(impl: FilmRepositoryImpl): FilmRepository

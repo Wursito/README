@@ -3,6 +3,7 @@ package es.spain.club
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.activity.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import es.spain.club.databinding.ActivityMainBinding
 import es.spain.domain.usecase.GetFilmUseCase
@@ -27,11 +28,17 @@ class MainActivity : AppCompatActivity() {
         log.log("El titulo es ${film.title}")
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        viewModel.loadFilm()
+        viewModel.pelicula.observe(this){
+            binding.textView.text = it.title
+        }
 
 
 
 
     }
+
+    private val  viewModel: MainViewModel by viewModels()
 
     override fun onStart() {
         super.onStart()
@@ -40,9 +47,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        binding.title.text = "Hola"
-        binding.title.text= resources.getString(R.string.hello)
-        log.log("OnResume")
+        binding.textView.text= "Victor empieza estado foreground"
+        binding.imageView.setImageResource(R.drawable.ic_launcher_background)
     }
 
     override fun onRestart() {
