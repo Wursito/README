@@ -47,7 +47,7 @@
         android:text="@string/template_movie_details"
         app:layout_constraintTop_toTopOf="@+id/textview_movie_title"
         tools:layout_editor_absoluteX="26dp"
-        tools:text="Marzo 2021 DU 106 minutes" />
+        tools:text="Director" />
 
     <Button
         android:id="@+id/button_rent"
@@ -97,6 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textview_movie_details" />
 
     <RatingBar
+        android:id="@+id/rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

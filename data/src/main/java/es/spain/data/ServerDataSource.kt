@@ -19,8 +19,10 @@ class ServerDataSource @Inject constructor() {
     suspend fun getFilm(id: Int, language: String): Film {
         val filmDto = api.getFilm(id, language)
         val creditsDto = api.getDirector(id)
-        val director= creditsDto.Role.firstOrNull{it.Role=="Directing"}?.Name?:""
+        val director = creditsDto.Role.firstOrNull { it.Role == "Directing" }?.Name ?: ""
         val image = "https://image.tmdb.org/t/p/w500${filmDto.Portada}"
         return Film(filmDto.title, image, filmDto.Rating, director, filmDto.overview)
+
+    }
 
 }

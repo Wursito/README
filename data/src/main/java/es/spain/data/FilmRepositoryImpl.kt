@@ -7,9 +7,13 @@ import es.spain.domain.repository.FilmRepository
 import javax.inject.Inject
 
 class FilmRepositoryImpl @Inject constructor(
-private val dataSource: HardcodedDataSource): FilmRepository {
-override fun getfilm(): Film {
-    return dataSource.getfilm()
+
+private val serverDataSource: ServerDataSource): FilmRepository {
+    override suspend fun getfilm(id: Int, language: String): Film? {
+        return runCatching {
+        serverDataSource.getFilm(id, language)
+    }.getOrNull()
 
     }
+
 }

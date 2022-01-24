@@ -9,7 +9,9 @@ class HardcodedDataSource @Inject constructor(){
             title = "FastAndFurious",
             url = "www.Tofasttofurious.com",
             rating = 10.0,
-            directorName = "Michael Jack"
+            directorName = "Michael Jack",
+            description = "Peliculon"
+
         )
     }
 

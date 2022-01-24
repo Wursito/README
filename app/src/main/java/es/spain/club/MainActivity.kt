@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.viewModels
+import com.bumptech.glide.Glide
 import dagger.hilt.android.AndroidEntryPoint
 import es.spain.club.databinding.ActivityMainBinding
 import es.spain.domain.usecase.GetFilmUseCase
@@ -14,8 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     @Inject
     lateinit var log: MyLog
-    @Inject
-    lateinit var usecase: GetFilmUseCase
+
 
 
     private lateinit var binding: ActivityMainBinding
@@ -24,13 +24,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         log.log("Oncreate")
-        val film = usecase.execute()
-        log.log("El titulo es ${film.title}")
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        viewModel.loadFilm()
+        viewModel.loadFilm(512195)
         viewModel.pelicula.observe(this){
-            binding.textView.text = it.title
+
+            binding.textView2.text = it.title
+            binding.textView.text = it.description
+            binding.textviewMovieDetails.text = it.directorName
+            binding.rating.rating = it.Rating.toFloat()
+            Glide.with(this).load(it.url).into(binding.imageView)
         }
 
 
