@@ -16,4 +16,12 @@ private val serverDataSource: ServerDataSource): FilmRepository {
 
     }
 
+    override suspend fun getFilms(language: String): List<Film>? {
+        return runCatching {
+            serverDataSource.getFilms(language)
+        }.getOrNull()
+    }
+
+
+
 }

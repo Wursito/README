@@ -1,5 +1,6 @@
 package es.spain.data
 
+import dagger.hilt.internal.GeneratedEntryPoint
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -15,5 +16,10 @@ interface FilmApi{
     suspend fun getDirector(@Path ("id")filmID:Int,
                             @Query("api_key")apiKey:String=API_KEY):CreditsDto
 
+    @GET("movie/popular")
+    suspend fun getPopular
+                (@Query("language") language: String,
+                @Query("api_key") apiKey: String= API_KEY): FilmListResultDto
 
 }
+

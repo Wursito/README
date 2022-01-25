@@ -48,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Domain/src/main/java/es/spain/domain/usecase/GetFilmsUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Domain/src/main/java/usecase/GetFilmUseCase.kt">
           <value>
             <set />
@@ -179,6 +184,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/data/src/main/java/es/spain/data/FilmDto.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/java/es/spain/data/FilmListResultDto.kt">
           <value>
             <set />
           </value>

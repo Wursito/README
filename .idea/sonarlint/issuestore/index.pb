@@ -40,3 +40,23 @@ Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d7
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+A
+data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
+X
+(app/src/main/java/es/spain/club/MyApp.kt,7\b\7bb666fb3cd768ec7f3e31beebf060e960904f9f
+X
+(app/src/main/java/es/spain/club/MyLog.kt,0\9\091b9caa363fed89ae910fb0312e2a328d95f803
+]
+-data/src/main/java/es/spain/data/AppModule.kt,8\7\87714e658e88c60cfbb5abefa098dc4e4f6a3e15
+[
++data/src/main/java/es/spain/data/CastDto.kt,5\c\5c6f50fc6ac4cd47fb63b690ba816a8780c0d8d8
+^
+.data/src/main/java/es/spain/data/CreditsDto.kt,3\6\361fe8dc5bfe35849c31f89021ff7913934b9426
+_
+/app/src/main/java/es/spain/club/filmDataView.kt,f\e\fecf61cd21180fa9ea1c29fcc206c2eeb098d896
+_
+/app/src/main/java/es/spain/club/MainActivity.kt,6\3\6361254e28d84cc0060043b19a407c8739ed8f0f
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+^
+.data/src/main/java/es/spain/data/DataModule.kt,2\5\2589a1b19852283026926431c5fa2d6da3c0ba43
