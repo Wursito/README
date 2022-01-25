@@ -38,8 +38,6 @@ r
 Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 A
 data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
 X
@@ -54,8 +52,6 @@ X
 .data/src/main/java/es/spain/data/CreditsDto.kt,3\6\361fe8dc5bfe35849c31f89021ff7913934b9426
 _
 /app/src/main/java/es/spain/club/filmDataView.kt,f\e\fecf61cd21180fa9ea1c29fcc206c2eeb098d896
-_
-/app/src/main/java/es/spain/club/MainActivity.kt,6\3\6361254e28d84cc0060043b19a407c8739ed8f0f
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 ^
