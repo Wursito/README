@@ -5,10 +5,14 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import es.spain.club.databinding.FilmListBinding
+import javax.inject.Inject
 
 
 @AndroidEntryPoint
 class FilmListActivity : AppCompatActivity() {
+
+    @Inject
+    lateinit var adapter: FilmListAdapter
 
 
     private lateinit var binding: FilmListBinding
@@ -20,7 +24,12 @@ class FilmListActivity : AppCompatActivity() {
         binding = FilmListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.root.adapter = adapter
+
+        
+
 
     }
+
 
 }

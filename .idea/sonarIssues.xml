@@ -78,7 +78,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/es/spain/club/FilmListAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/es/spain/club/FilmListViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/es/spain/club/FilmOverviewDataView.kt">
           <value>
             <set />
           </value>
@@ -204,6 +214,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/data/src/main/java/es/spain/data/FilmDto.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/java/es/spain/data/FilmListAdapter.kt">
           <value>
             <set />
           </value>
