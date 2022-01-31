@@ -6,5 +6,6 @@ data class Film(
     val rating: Double,
     val directorName: String?,
     val description: String,
+    val id: Int
 )
 

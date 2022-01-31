@@ -70,8 +70,6 @@ n
 >Domain/src/main/java/es/spain/domain/usecase/GetFilmUseCase.kt,3\2\32e91dae78f93c05e6c519a49d4bb8a4dc4994b5
 d
 4data/src/main/java/es/spain/data/ServerDataSource.kt,6\0\601c8f7a7c54fd39d42092cfb5a89db40c00452f
-c
-3Domain/src/main/java/es/spain/domain/entity/Film.kt,3\f\3f8a3d7a08cb86eb7855af9aeaa560bb5790bb2b
 f
 6data/src/main/java/es/spain/data/FilmRepositoryImpl.kt,4\8\48c59cd24007edf449b5ba464a9ade6c1d65a053
 [
