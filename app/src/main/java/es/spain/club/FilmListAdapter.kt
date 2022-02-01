@@ -9,6 +9,11 @@ import com.bumptech.glide.Glide
 import es.spain.club.databinding.FilmOverviewBinding
 import javax.inject.Inject
 
+
+typealias OnMessageClick= (FilmOverviewDataView) -> Unit
+
+
+
 open class FilmViewHolder(val binding: FilmOverviewBinding) :
     RecyclerView.ViewHolder(binding.root) {
 
@@ -17,7 +22,12 @@ open class FilmViewHolder(val binding: FilmOverviewBinding) :
 class FilmListAdapter @Inject constructor() :
     ListAdapter<FilmOverviewDataView, FilmViewHolder>(diffUtil) {
 
+    var callback: OnMessageClick? = null
+
     companion object {
+
+
+
 
         private val diffUtil = object : DiffUtil.ItemCallback<FilmOverviewDataView>() {
             override fun areItemsTheSame(
@@ -51,5 +61,9 @@ class FilmListAdapter @Inject constructor() :
         val film = getItem(position)
         holder.binding.Titulo1.text = film.title
         Glide.with(holder.binding.poster).load(film.imageURL).into(holder.binding.poster)
-}
+        holder.binding.root.setOnClickListener {
+            callback?.invoke(film)
+        }
+    }
+
 }

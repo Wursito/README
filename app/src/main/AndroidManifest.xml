@@ -14,7 +14,7 @@
         android:name=".MyApp">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".FilmActivity"
             android:exported="true">
 
         </activity>

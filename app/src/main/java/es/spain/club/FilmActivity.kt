@@ -11,7 +11,7 @@ import es.spain.domain.usecase.GetFilmUseCase
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity() {
+class FilmActivity : AppCompatActivity() {
 
     @Inject
     lateinit var log: MyLog
