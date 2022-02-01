@@ -40,7 +40,7 @@ class FilmListActivity : AppCompatActivity() {
 
         val intent = Intent (this, FilmActivity::class.java)
         startActivity(intent)
-        
+
     }
 
     }

@@ -25,7 +25,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/portadaaa" />
+        />
 
     <TextView
         android:id="@+id/textview_movie_title"
