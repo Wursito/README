@@ -11,8 +11,7 @@ class HardcodedDataSource @Inject constructor(){
             rating = 10.0,
             directorName = "Michael Jack",
             description = "Peliculon",
-            id = 0
-
+            id = 1
         )
     }
 

@@ -25,13 +25,11 @@ class ServerDataSource @Inject constructor() {
 
     }
 
-        suspend fun getFilms(language: String):  List<Film> {
-            val a =  api.getPopular(language).films.map {
+    suspend fun getFilms(language: String):  List<Film> {
+        return api.getPopular(language).films.map {
             val image = "https://image.tmdb.org/t/p/w500${it.Portada}"
             Film(it.title, image, it.Rating, null , it.overview, it.id)
-            }
-            return a
-
+        }
     }
 
 }
