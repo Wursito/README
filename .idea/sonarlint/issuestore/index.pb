@@ -64,3 +64,11 @@ n
 >Domain/src/main/java/es/spain/domain/usecase/GetFilmUseCase.kt,3\2\32e91dae78f93c05e6c519a49d4bb8a4dc4994b5
 f
 6data/src/main/java/es/spain/data/FilmRepositoryImpl.kt,4\8\48c59cd24007edf449b5ba464a9ade6c1d65a053
+c
+3Domain/src/main/java/es/spain/domain/entity/Film.kt,3\f\3f8a3d7a08cb86eb7855af9aeaa560bb5790bb2b
+`
+0app/src/main/java/es/spain/club/MainViewModel.kt,7\b\7b4542deeaa6bad2842c1a6b282366378f33a27e
+g
+7app/src/main/java/es/spain/club/FilmOverviewDataView.kt,8\1\8164ee322f857dbf2d2973ce6415abc02d6d48a2
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
