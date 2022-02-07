@@ -48,5 +48,3 @@ q
 ADomain/src/main/java/es/spain/domain/repository/FilmRepository.kt,2\f\2fa0c175122b70c5021a33d7e94e2c0d1ece5a19
 f
 6data/src/main/java/es/spain/data/FilmRepositoryImpl.kt,4\8\48c59cd24007edf449b5ba464a9ade6c1d65a053
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
