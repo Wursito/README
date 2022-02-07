@@ -1,8 +1,11 @@
 package es.spain.club
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.activity.viewModels
 import com.bumptech.glide.Glide
 import dagger.hilt.android.AndroidEntryPoint
@@ -45,7 +48,20 @@ class FilmActivity : AppCompatActivity() {
             binding.director.text = it.directorName
             binding.rating.rating = it.Rating.toFloat()
             Glide.with(this).load(it.url).into(binding.imageView)
+
+        if (it.videoId == null) {
+            binding.buttonRent.visibility = View.GONE
+        } else {
+            binding.buttonRent.visibility = View.VISIBLE
+            binding.buttonRent.setOnClickListener{ d->
+                launchYoutube(it.videoId)
+            }
+
         }
+
+
+        }
+
 
 
 
@@ -53,6 +69,14 @@ class FilmActivity : AppCompatActivity() {
     }
 
     private val  viewModel: MainViewModel by viewModels()
+
+    private fun launchYoutube(id: String){
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=$id"))
+        startActivity(intent)
+    }
+
+
+
 
     override fun onStart() {
         super.onStart()
@@ -81,6 +105,5 @@ class FilmActivity : AppCompatActivity() {
 
 
     }
-
 
 }

@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">Club+</string>
     <string name="Hola">Hola Mundo!</string>
+    <string name="template_movie_title">Fast and Furious 9</string>
+    <string name="template_movie_details">Marzo 2021 DU 106 minutes</string>
+    <string name="rent">Ver Trailer</string>
+    <string name="buy">Comprar</string>
 </resources>
