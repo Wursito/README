@@ -248,6 +248,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/java/es/spain/data/VideoDto.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/java/es/spain/data/VideoResultDto.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/GitHub/constraint-workshop/app/src/main/res/layout/main.xml">
           <value>
             <set />

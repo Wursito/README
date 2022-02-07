@@ -37,7 +37,9 @@ class FilmListActivity : AppCompatActivity() {
       Log.i("Hola", "este es el mesanje")
 
       val intent = Intent(this, FilmActivity::class.java)
+      intent.putExtra(FilmActivity.FILM_ID, it.id)
       startActivity(intent)
+
     }
   }
 }

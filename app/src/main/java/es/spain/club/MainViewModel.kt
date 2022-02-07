@@ -23,9 +23,8 @@ class MainViewModel @Inject constructor(
 
         job = CoroutineScope(Dispatchers.IO).launch {
             val loadedFilm = useCase.execute(
-                600, language
+                id, language
             )
-            data class  FilmDataView(val title: String, val description: String,val rating: String,val director: String, val text: String, val imageUrl: String)
             withContext(Dispatchers.Main) {
                 loadedFilm?.let {
                     filmLiveData.value = FilmDataView(
@@ -34,6 +33,7 @@ class MainViewModel @Inject constructor(
                         it.url,
                         it.directorName?:"",
                         it.rating,
+                        it.videoId
 
 
 

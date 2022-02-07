@@ -18,17 +18,25 @@ class ServerDataSource @Inject constructor() {
 
     suspend fun getFilm(id: Int, language: String): Film {
         val filmDto = api.getFilm(id, language)
-        val creditsDto = api.getDirector(id)
-        val director = creditsDto.Role.firstOrNull { it.Role == "Directing" }?.Name ?: ""
+        val director = kotlin.runCatching {
+            api.getDirector(id)
+        }.onFailure {
+            it
+        }.getOrNull()?.Role?.firstOrNull { it.Role == "Directing" }?.Name ?: ""
         val image = "https://image.tmdb.org/t/p/w500${filmDto.Portada}"
-        return Film(filmDto.title, image, filmDto.Rating, director, filmDto.overview, filmDto.id)
 
+
+       val video =  api.getVideos(id, language).results.filter {
+            it.site == "YouTube"
+        }.firstOrNull{it.type == "Trailer"}?.id
+
+        return Film(filmDto.title, image, filmDto.Rating, director, filmDto.overview, filmDto.id, video)
     }
 
     suspend fun getFilms(language: String):  List<Film> {
         return api.getPopular(language).films.map {
             val image = "https://image.tmdb.org/t/p/w500${it.Portada}"
-            Film(it.title, image, it.Rating, null , it.overview, it.id)
+            Film(it.title, image, it.Rating, null , it.overview, it.id, videoId = null)
         }
     }
 

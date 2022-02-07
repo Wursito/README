@@ -13,6 +13,10 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class FilmActivity : AppCompatActivity() {
 
+    companion object {
+        const val FILM_ID = "ID"
+    }
+
     @Inject
     lateinit var log: MyLog
 
@@ -27,12 +31,18 @@ class FilmActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        viewModel.loadFilm(512195)
+
+
+
+        val id = intent?.extras?.getInt(FILM_ID) ?: 512195
+        viewModel.loadFilm(id)
+
+
         viewModel.pelicula.observe(this){
 
-            binding.textView2.text = it.title
+            binding.titulo.text = it.title
             binding.textView.text = it.description
-            binding.textviewMovieDetails.text = it.directorName
+            binding.director.text = it.directorName
             binding.rating.rating = it.Rating.toFloat()
             Glide.with(this).load(it.url).into(binding.imageView)
         }
