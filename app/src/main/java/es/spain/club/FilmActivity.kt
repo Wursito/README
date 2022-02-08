@@ -59,7 +59,7 @@ class FilmActivity : AppCompatActivity() {
 
         }
 
-actionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.setDisplayHomeAsUpEnabled(true)
         }
 
 
