@@ -193,12 +193,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/java/database/DatabaseDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/data/src/main/java/database/FilmDao.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/data/src/main/java/database/FilmEntity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/java/database/RoomModule.kt">
           <value>
             <set />
           </value>

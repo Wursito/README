@@ -36,16 +36,10 @@ Q
 data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
 r
 Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 ]
 -data/src/main/java/es/spain/data/AppModule.kt,8\7\87714e658e88c60cfbb5abefa098dc4e4f6a3e15
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 q
 ADomain/src/main/java/es/spain/domain/repository/FilmRepository.kt,2\f\2fa0c175122b70c5021a33d7e94e2c0d1ece5a19
-f
-6data/src/main/java/es/spain/data/FilmRepositoryImpl.kt,4\8\48c59cd24007edf449b5ba464a9ade6c1d65a053
 o
 ?Domain/src/main/java/es/spain/domain/usecase/GetFilmsUseCase.kt,8\c\8cf964fa8def54c69eabcef5236bdfd101ad5ec5
 n
@@ -54,8 +48,6 @@ b
 2app/src/main/java/es/spain/club/FilmListAdapter.kt,5\2\52a7bbd114f9ca367c7227dc9b9e72860f020567
 e
 5data/src/main/java/es/spain/data/FilmListResultDto.kt,9\d\9dbfbbdb06d224fd7970870e9c63268a7124e1f0
-^
-.data/src/main/java/es/spain/data/DataModule.kt,2\5\2589a1b19852283026926431c5fa2d6da3c0ba43
 X
 (app/src/main/java/es/spain/club/MyApp.kt,7\b\7bb666fb3cd768ec7f3e31beebf060e960904f9f
 X
@@ -70,9 +62,17 @@ c
 3app/src/main/java/es/spain/club/FilmListActivity.kt,f\c\fc92f9cfe19a887ce471763db333c2c832020fb6
 [
 +data/src/main/java/es/spain/data/CastDto.kt,5\c\5c6f50fc6ac4cd47fb63b690ba816a8780c0d8d8
-d
-4data/src/main/java/es/spain/data/ServerDataSource.kt,6\0\601c8f7a7c54fd39d42092cfb5a89db40c00452f
 ^
 .data/src/main/java/es/spain/data/CreditsDto.kt,3\6\361fe8dc5bfe35849c31f89021ff7913934b9426
 b
 2data/src/main/java/es/spain/data/FilmApiService.kt,3\c\3cbe1ce77ea18e56c20e04cf2c112deec3fa76ea
+b
+2data/src/main/java/es/spain/data/VideoResultDto.kt,a\e\aea9d0497b355ddca9c14a9429c5fae201edbda3
+g
+7data/src/main/java/es/spain/data/HardcodedDataSource.kt,e\5\e5d00dde7c53bcab8f6a998317b506e5bf393bf2
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+g
+7app/src/main/java/es/spain/club/FilmOverviewDataView.kt,8\1\8164ee322f857dbf2d2973ce6415abc02d6d48a2
+`
+0app/src/main/java/es/spain/club/MainViewModel.kt,7\b\7b4542deeaa6bad2842c1a6b282366378f33a27e
