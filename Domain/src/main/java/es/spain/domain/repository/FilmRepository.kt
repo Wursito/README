@@ -4,7 +4,7 @@ import es.spain.domain.entity.Film
 
 interface FilmRepository{
 
-    suspend fun getfilm(id: Int, language: String): Film?
+    suspend fun getFilm(id: Int, language: String): Film?
 
     suspend fun getFilms(language: String): List<Film>?
 }

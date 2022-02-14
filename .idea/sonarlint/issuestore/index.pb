@@ -38,12 +38,6 @@ r
 Bdata/src/androidTest/java/es/spain/data/ExampleInstrumentedTest.kt,6\4\64f67d716a3a8ab34c447ca6d9014fdfd54943fb
 ]
 -data/src/main/java/es/spain/data/AppModule.kt,8\7\87714e658e88c60cfbb5abefa098dc4e4f6a3e15
-q
-ADomain/src/main/java/es/spain/domain/repository/FilmRepository.kt,2\f\2fa0c175122b70c5021a33d7e94e2c0d1ece5a19
-o
-?Domain/src/main/java/es/spain/domain/usecase/GetFilmsUseCase.kt,8\c\8cf964fa8def54c69eabcef5236bdfd101ad5ec5
-n
->Domain/src/main/java/es/spain/domain/usecase/GetFilmUseCase.kt,3\2\32e91dae78f93c05e6c519a49d4bb8a4dc4994b5
 b
 2app/src/main/java/es/spain/club/FilmListAdapter.kt,5\2\52a7bbd114f9ca367c7227dc9b9e72860f020567
 e
@@ -52,14 +46,10 @@ X
 (app/src/main/java/es/spain/club/MyApp.kt,7\b\7bb666fb3cd768ec7f3e31beebf060e960904f9f
 X
 (app/src/main/java/es/spain/club/MyLog.kt,0\9\091b9caa363fed89ae910fb0312e2a328d95f803
-d
-4app/src/main/java/es/spain/club/FilmListViewModel.kt,3\e\3e2621f2778651fadc303ba8be6168643dda2bef
 _
 /app/src/main/java/es/spain/club/filmDataView.kt,f\e\fecf61cd21180fa9ea1c29fcc206c2eeb098d896
 \
 ,data/src/main/java/es/spain/data/VideoDto.kt,b\2\b249879eba5b5ce197bf7d88e04290b2530249ee
-c
-3app/src/main/java/es/spain/club/FilmListActivity.kt,f\c\fc92f9cfe19a887ce471763db333c2c832020fb6
 [
 +data/src/main/java/es/spain/data/CastDto.kt,5\c\5c6f50fc6ac4cd47fb63b690ba816a8780c0d8d8
 ^
@@ -70,8 +60,6 @@ b
 2data/src/main/java/es/spain/data/VideoResultDto.kt,a\e\aea9d0497b355ddca9c14a9429c5fae201edbda3
 g
 7data/src/main/java/es/spain/data/HardcodedDataSource.kt,e\5\e5d00dde7c53bcab8f6a998317b506e5bf393bf2
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 g
 7app/src/main/java/es/spain/club/FilmOverviewDataView.kt,8\1\8164ee322f857dbf2d2973ce6415abc02d6d48a2
 `

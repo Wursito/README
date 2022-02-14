@@ -12,15 +12,10 @@ class FilmRepositoryImpl @Inject constructor(
 
     private val databaseDataSource: DatabaseDataSource,
     private val serverDataSource: ServerDataSource): FilmRepository {
-    override suspend fun getfilm(id: Int, language: String): Film? {
-        return runCatching {
-        serverDataSource.getFilm(id, language)
-    }.getOrNull()
-
-    }
 
     override suspend fun getFilm(id: Int, language: String):Film? {
         return runCatching {
+            serverDataSource.getFilm(id,language)
             val filmfromServer = serverDataSource.getFilm(id,language)
             databaseDataSource.updateFilms(listOf(filmfromServer))
             filmfromServer

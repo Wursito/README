@@ -50,7 +50,7 @@ class FilmActivity : AppCompatActivity() {
             Glide.with(this).load(it.url).into(binding.imageView)
 
         if (it.videoId == null) {
-            binding.buttonRent.visibility = View.GONE
+            binding.buttonRent.visibility = View.INVISIBLE
         } else {
             binding.buttonRent.visibility = View.VISIBLE
             binding.buttonRent.setOnClickListener{ d->
